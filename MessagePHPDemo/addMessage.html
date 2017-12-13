@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="addMessage.php" method="post">
+    <div style="margin-left: 450px; margin-top: 20px;
+                height: 250px; width: 250px">
+        <h1>发布留言</h1>
+        <a href="showMessage.php">查看留言</a>
+        <br/>
+        <div>
+            <br/>
+            请选择日期：
+            <br/>
+            <input type="date" name="date">
+            <br/><br/>
+            请输入您的留言：
+            <input type="textarea" size="40" name="message">
+            <br/><br/>
+            <div style="margin-left: 20px">
+                <input type="submit" value="提交">
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>
